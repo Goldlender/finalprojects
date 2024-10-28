@@ -11,7 +11,8 @@ st.text('This is a page for data statistics summary')
 
 uploaded_file = st.file_uploader('Upload your file here')
 st.info('Drag and drop the rock fragmentation data here...')
-multi = '''1. All uploaded files should be converted to **.xlsx**
+multi = '''1. All uploaded files should be converted to **.xlsx**, 
+**the functionality of the other pages requires uploading the file first**
 2. The model only takes 7 input parameters i.e. SB, HB, TB, BD, Pf(kg/m3), E(GPa) and XB(m).
 3. X50(m) or mean fragmentation/block size is the output parameter.
 4. Users have an option of manually entering input parameters and predict a single value 
